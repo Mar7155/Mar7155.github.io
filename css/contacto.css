@@ -1,0 +1,87 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E6E6FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.Contenido
+{
+    background: url(../imagenes/nathan.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    width: 5000px;
+}
+.Contenido h2
+{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+label
+{
+    font-size: 17px;
+    color: #f7f9fd;
+    margin-bottom: 10px;
+}
+input , textarea
+{
+    padding: 17px 14px;
+    background-color: white;
+    border: 0;
+    font-size: 13px;
+    color: black;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+:focus
+{
+    outline: 1px solid #1E9299;
+}
+.btn
+{
+    background-color: #2ebde9;
+    width: 150px;
+    align-self: self-end;
+    cursor: pointer;
+    color: white;
+    border: 2px solid #961ac7;
+    background: #961ac7;
+}
+.btn:hover
+{
+    background-color:#6e1192;
+}
+
+@media(max-width: 800px)
+{
+    body
+    {
+        padding:30px;
+    }
+    .Contenido
+    {
+        width: 100%;
+    }
+    form
+    {
+        width: 100%;
+    }
+}
